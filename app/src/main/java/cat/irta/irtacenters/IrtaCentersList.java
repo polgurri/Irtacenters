@@ -51,7 +51,7 @@ public class IrtaCentersList extends ActionBarActivity {
             "http://www.irta.cat",
             "http://www.irta.cat",
             "http://www.irta.cat",
-            "http://www.irta.cat",
+            "http://www.irta.es",
             "http://www.irta.cat",
             "http://www.irta.cat",
             "http://www.irta.cat",
