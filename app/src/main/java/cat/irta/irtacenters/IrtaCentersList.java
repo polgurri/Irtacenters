@@ -44,45 +44,46 @@ public class IrtaCentersList extends ActionBarActivity {
     };
 
     String[] center_list_webs = {
-            "http://www.0.cat",
-            "http://www.1.cat",
-            "http://www.2.cat",
-            "http://www.irta.cat",
-            "http://www.irta.cat",
-            "http://www.irta.cat",
-            "http://www.irta.cat",
-            "http://www.irta.es",
-            "http://www.irta.cat",
-            "http://www.irta.cat",
-            "http://www.irta.cat",
-            "http://www.irta.cat",
+            "http://www.irta.cat/es-es/RIT/Centres/paginas/Cabrils.aspx",
+            "http://www.cresa.es",
+            "http://www.irta.cat/es-es/RIT/Centres/paginas/Estaci%C3%B3ExperimentaldeLleida.aspx", //ERROR
+            "http://www.irta.cat/es-es/RIT/Centres/paginas/Estaci%C3%B3ExperimentaldeLleida.aspx", //ERROR
+            "http://www.irta.cat/es-es/RIT/Centres/paginas/Estaci%C3%B3ExperimentaldeLleida.aspx", //ERROR
+            "http://www.irta.cat/es-es/RIT/Centres/paginas/Estaci%C3%B3_Experimental_de_l'Ebre.aspx", //ERROR
+            "http://www.irta.cat/es-es/RIT/Centres/paginas/EstacioExperimentalMasBadia.aspx",
+            "http://www.irta.cat/es-es/RIT/Centres/paginas/Fruitcentre.aspx",
+            "http://www.irta.cat/es-es/RIT/Centres/paginas/EstacioExperimentalAlcarras.aspx",
+            "http://www.irta.cat/es-es/RIT/Centres/paginas/MasdeBover.aspx",
+            "http://www.irta.cat/es-es/RIT/Centres/paginas/Monells.aspx",
+            "http://www.irta.cat/es-es/RIT/Centres/paginas/SantCarlesdelaR%C3%A0pita.aspx", //ERROR
             "http://www.irta.cat/en-US/RIT/Centres/Pages/TorreMarimon.aspx",
-            "http://www.irta.cat",
-            "http://www.irta.cat"
+            "http://www.cragenomica.es/",
+            "http://www.irta.cat/es-es/RIT/Centres/paginas/CREDA.aspx"
     };
 
     String[] center_list_locations = {
-            "google.streetview:cbll=46.414382,10.013988",
-            "google.streetview:cbll=46.414382,10.013988",
-            "http://www.2.cat",
-            "http://www.irta.cat",
-            "http://www.irta.cat",
-            "http://www.irta.cat",
-            "http://www.irta.cat",
-            "http://www.irta.cat",
-            "http://www.irta.cat",
-            "http://www.irta.cat",
-            "http://www.irta.cat",
-            "http://www.irta.cat",
+            "geo:41.5164019,2.3774935?q=41.5164019,2.3774935(Irta Cambrils)",
+            "geo:41.5047853,2.0966397?q=41.5047853,2.0966397(CReSA)",
+            "geo:41.656208,0.389714?q=41.656208,0.389714(Finca Gimenells)",
+            "geo:41.617399,0.870172?q=41.617399,0.870172(Finca Mollerussa)",
+            "geo:41.617399,0.870172?q=41.617399,0.870172(Finca Borges Blanques)",
+            "geo:40.7082306,0.6323306?q=40.7082306,0.6323306(Estació Experimental del Ebre)",
+            "geo:42.054152,3.061881?q=42.054152,3.061881(Estació Experimental Mas Badia)",
+            "geo:41.6049364,0.6056739?q=41.6049364,0.6056739(Fruitcentre)",
+            "geo:41.602478,0.525798?q=41.602478,0.525798(Granja Experimental d’Alcarràs)",
+            "geo:41.169851,1.169335?q=41.169851,1.169335(Mas de Bover)",
+            "geo:41.9785593,2.9941466?q=41.9785593,2.9941466(Irta Monells)", //check
+            "geo:40.627698,0.659952?q=40.627698,0.659952(Sant Carles de la Ràpita)",
             "geo:41.6134271,2.1709251?q=41.6134271,2.1709251(Torre Marimon)",
-            "http://www.irta.cat",
-            "http://www.irta.cat"
+            "geo:41.4976917,2.1080263?q=41.4976917,2.1080263(CRAG)",
+            "geo:41.276581,1.9873431?q=41.276581,1.9873431(CREDA)"
     };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_irta_centers_list);
+
 
         // get the listview
         expListView = (ExpandableListView) findViewById(R.id.lvExp);
